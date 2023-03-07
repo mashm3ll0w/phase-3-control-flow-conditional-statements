@@ -32,18 +32,28 @@ def fizzbuzz(num)
   end
 end
 
+# def calculator(operation, num1, num2)
+#   case operation
+#   when "+"
+#     num1 + num2
+#   when "-"
+#     num1 - num2
+#   when "*"
+#     num1 * num2
+#   when "/"
+#     num1 / num2
+#   else
+#     puts "Invalid operation!"
+#   end
+# end
+
 def calculator(operation, num1, num2)
-  case operation
-  when "+"
-    num1 + num2
-  when "-"
-    num1 - num2
-  when "*"
-    num1 * num2
-  when "/"
-    num1 / num2
-  else
-    puts "Invalid operation!"
-  end
+    case operation
+    when "+" then num1 + num2
+    when "-" then num1 - num2
+    when "*" then num1 * num2
+    when "/" then num1 / num2
+    else puts "Invalid operation!"
+    end
 end
 
